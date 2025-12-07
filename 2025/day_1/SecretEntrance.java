@@ -1,4 +1,4 @@
-package SecretEntrance;
+package day_1;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -14,7 +14,7 @@ public class SecretEntrance {
         int index = INITIAL_INDEX;
         int overflowCount = 0;
 
-        try (BufferedReader br = new BufferedReader(new FileReader("2025/SecretEntrance/input1.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("2025/day_1/input1.txt"))) {
             String line = br.readLine();
 
             while (line != null) {
